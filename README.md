@@ -3,8 +3,7 @@
 
 I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a deep passion for AI, machine learning, and analytics. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
 
-🔹 Tech Stack: Python | SQL | ML | DL | Data Visualization<br>
-🔹 Interests: AI Research | Predictive Analytics | Optimization<br>
+🔹 Interests: LLM Development | AI Engineering | Big Data Technologies | Predictive Analytics | Optimization<br>
 🔹 Always Learning: Open to collaborations and exciting projects!<br>
 
 - 🔭 I’m currently working on **LLMs**
