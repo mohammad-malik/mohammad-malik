@@ -81,7 +81,7 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 
 <br>
 <img src="https://pixel-profile-ui.vercel.app/api/github-stats?username=mohammad-malik&include_all_commits=true&pixelate_avatar=false&theme=road_trip" alt="mohammad-malik's Stats">
-<div style="display: flex; justify-content: space-between">
+<div style="display: flex; justify-content">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohammad-malik&theme=gruvbox&hide_border=true" alt="mohammad-malik's Streak">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammad-malik&theme=gruvbox&show_icons=true&hide_border=true&layout=donut" alt="mohammad-malik's Top Languages">
 </div>
