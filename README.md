@@ -18,7 +18,7 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 
 <p>
 <a href="mailto:mohammadmalik.dev@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-mohammadmalik.dev@gmail.com-%23c62929?style=flat&logo=Gmail&logoColor=white" alt="email" style="margin-bottom: 5px;"/></a>
-<a href="https://linkedin.com/in/mohammad-malik" target="_blank"> <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?style=flat&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" /></a>
+<a href="https://linkedin.com/in/mohammad-malik-" target="_blank"> <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?style=flat&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" /></a>
 
 ---
 
