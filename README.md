@@ -86,4 +86,8 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammad-malik&theme=gruvbox&show_icons=true&hide_border=true&layout=donut" alt="mohammad-malik's Top Languages">
 </div>
 
+---
 
+### [![Quote](https://readme-typing-svg.demolab.com/?lines="An+idiot+admires+complexity,;A+genius+admires+simplicity"&height=60&color=FFD700&multiline=true)](https://git.io/typing-svg)
+
+---
