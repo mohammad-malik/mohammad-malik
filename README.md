@@ -59,7 +59,10 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> 
 <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/oracle.svg" alt="oracle" width="40" height="40"/> </a> 
 <a href="https://www.r-project.org/" target="_blank"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/r-lang.svg" alt="R" height="40" width="40" /></a>
+<a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank"><img src="https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg" alt="csharp" height="40" width="40" /></a>
 <a href="https://www.twilio.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" alt="twilio" width="40" height="40"/> </a> 
+<a href="https://learn.microsoft.com/en-us/power-bi/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="powerbi" width="40" height="40"/> </a> 
+<a href="https://www.tableau.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/gilbarbara/logos/blob/main/logos/tableau-icon.svg" alt="tableau" width="40" height="40"/> </a> 
 <a href="https://numpy.org//" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/numpy.svg" alt="numpy" width="40" height="40"/> </a> 
 <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/pandas-icon.svg" alt="pandas" width="40" height="40"/> </a> 
 <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/opencv.svg" alt="opencv" width="40" height="40"/> </a> 
