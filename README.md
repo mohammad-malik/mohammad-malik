@@ -36,6 +36,13 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 <a href="https://spark.apache.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/apache-spark.svg" alt="spark" width="40" height="40"/> </a> 
 <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://hive.apache.org/images/hive.svg" alt="hive" width="40" height="40"/> </a> 
 <a href="https://flink.apache.org/" target="_blank" rel="noreferrer"> <img src="https://flink.apache.org/img/logo/png/500/flink_squirrel_500.png" alt="flink" width="37" height="40"/> </a>
+<a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/apache/airflow/blob/d664a5263874eb791b3db2476e273b1a6f37b4be/airflow-core/docs/img/logos/airflow_64x64_emoji_transparent.png?raw=true" alt="airflow" width="40" height="40"/> </a> 
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mongodb-icon.svg" alt="mongodb" width="40" height="40"/> </a> 
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/postgresql.svg" alt="postgresql" width="40" height="40"/> </a> 
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mysql-icon.svg" alt="mysql" width="40" height="40"/> </a>
+<a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> 
+<a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/oracle.svg" alt="oracle" width="40" height="40"/> </a> 
+<a href="https://www.r-project.org/" target="_blank"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/r-lang.svg" alt="R" height="40" width="40" /></a>
 <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/java.svg" alt="java" width="40" height="40"/> </a> 
 <a href="https://www.javascript.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/javascript.svg" alt="javascript" width="40" height="40"/> </a> 
 <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/d3.svg" alt="d3js" width="40" height="40"/> </a> 
@@ -53,12 +60,6 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/linux-tux.svg" alt="linux" width="40" height="40"/> </a> 
 <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/bash-icon.svg" alt="bash" height="40" width="40"/></a>
 <a href="https://www.cplusplus.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/c-plusplus.svg" alt="cpp" width="40" height="40"/> </a> 
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mongodb-icon.svg" alt="mongodb" width="40" height="40"/> </a> 
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/postgresql.svg" alt="postgresql" width="40" height="40"/> </a> 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mysql-icon.svg" alt="mysql" width="40" height="40"/> </a>
-<a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> 
-<a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/oracle.svg" alt="oracle" width="40" height="40"/> </a> 
-<a href="https://www.r-project.org/" target="_blank"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/r-lang.svg" alt="R" height="40" width="40" /></a>
 <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank"><img src="https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg" alt="csharp" height="40" width="40" /></a>
 <a href="https://www.twilio.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" alt="twilio" width="40" height="40"/> </a> 
 <a href="https://learn.microsoft.com/en-us/power-bi/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="powerbi" width="40" height="40"/> </a> 
