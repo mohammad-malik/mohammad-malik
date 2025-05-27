@@ -81,6 +81,8 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 
 [![Trophy](https://github-profile-trophy.vercel.app/?username=mohammad-malik&column=-1&theme=dark_lover)](https://github.com/ryo-ma/github-profile-trophy)
 
+3x Hackathon wins 🏆
+
 ## 📊 Statistics:
 
 <br>
