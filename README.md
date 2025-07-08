@@ -10,9 +10,7 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 
 - 🌱 I’m currently learning **LangGraph**
 
-- 👯 I’m looking to collaborate on **AGI**
-
-- 💬 Ask me about **AI, LLMs, DevOps, MLOps, Backend development, Azure, AWS**
+- 💬 Ask me about **AI, LLMs, Automation, DevOps, MLOps, Data Analysis, Backend Development, Cloud**
 
 - 📫 How to reach me:
 
@@ -28,13 +26,13 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/microsoft-azure.svg" alt="azure" width="40" height="40"/> </a> 
 <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/google-cloud.svg" alt="gcp" width="40" height="40"/> </a> 
 <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/aws.svg" alt="aws" width="40" height="40"/> </a> 
+<a href="https://www.vercel.com" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="vercel" width="40" height="40"/> </a> 
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/docker-icon.svg" alt="docker" width="40" height="40"/> </a> 
 <a href="https://supabase.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/supabase-icon.svg" alt="supabase" width="40" height="40"/> </a> 
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/firebase.svg" alt="firebase" width="40" height="40"/> </a> 
 <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/hadoop.svg" alt="hadoop" width="40" height="40"/> </a> 
 <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> 
 <a href="https://spark.apache.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/apache-spark.svg" alt="spark" width="40" height="40"/> </a> 
-<a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://hive.apache.org/images/hive.svg" alt="hive" width="40" height="40"/> </a> 
 <a href="https://flink.apache.org/" target="_blank" rel="noreferrer"> <img src="https://flink.apache.org/img/logo/png/500/flink_squirrel_500.png" alt="flink" width="37" height="40"/> </a>
 <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/apache/airflow/blob/d664a5263874eb791b3db2476e273b1a6f37b4be/airflow-core/docs/img/logos/airflow_64x64_emoji_transparent.png?raw=true" alt="airflow" width="40" height="40"/> </a> 
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mongodb-icon.svg" alt="mongodb" width="40" height="40"/> </a> 
@@ -60,8 +58,10 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/linux-tux.svg" alt="linux" width="40" height="40"/> </a> 
 <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/bash-icon.svg" alt="bash" height="40" width="40"/></a>
 <a href="https://www.cplusplus.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/c-plusplus.svg" alt="cpp" width="40" height="40"/> </a> 
+<a href="https://developer.nvidia.com/cuda-toolkit" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/373541/cuda.svg" alt="cuda" width="40" height="40"/></a>
+<a href="https://developer.nvidia.com/opencl" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/373947/opencl.svg" alt="opencl" width="40" height="40"/></a>
+<a href="https://www.open-mpi.org/" target="_blank" rel="noreferrer"> <img src="https://images.seeklogo.com/logo-png/9/2/mpi-logo-png_seeklogo-95440.png" alt="mpi" width="40" height="40"/></a>
 <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank"><img src="https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg" alt="csharp" height="40" width="40" /></a>
-<a href="https://www.twilio.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" alt="twilio" width="40" height="40"/> </a> 
 <a href="https://learn.microsoft.com/en-us/power-bi/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="powerbi" width="40" height="40"/> </a> 
 <a href="https://www.tableau.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/gilbarbara/logos/blob/main/logos/tableau-icon.svg" alt="tableau" width="40" height="40"/> </a> 
 <a href="https://numpy.org//" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/numpy.svg" alt="numpy" width="40" height="40"/> </a> 
@@ -72,8 +72,11 @@ I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
 <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/tensorflow.svg" alt="tensorflow" width="40" height="40"/> </a> 
 <a href="https://www.pytorch.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> 
-<a href="https://www.langchain.com/" target="_blank" rel="noreferrer"> <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/1.29.0/files/dark/langchain-color.png" alt="langchain" width="40" height="40"/></a> 
+<a href="https://www.langchain.com/" target="_blank" rel="noreferrer"> <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/1.29.0/files/dark/langchain-color.png" alt="langchain" width="40" height="40"/></a>
 <a href="https://www.crewai.com/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/170677839?v=4" alt="crewai" width="40" height="40"/> </a> 
+<a href="https://https://n8n.io/" target="_blank" rel="noreferrer"> <img src="https://cp.beget.com/shared/EXlbmo7zStLYxXYd6yFrM714qZj8LMkI/logo_n8n2x.png" alt="n8n" width="40" height="40"/></a> 
+<a href="https://www.twilio.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" alt="twilio" width="40" height="40"/> </a> 
+<a href="https://www.elevenlabs.io" target="_blank" rel="noreferrer"> <img src="https://invadeai.com/uploads/img/posticons/2024/09/elevenlabs58.webp" alt="elevenlabs" width="40" height="40"/> </a> 
 
 
 
