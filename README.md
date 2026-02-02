@@ -1,7 +1,7 @@
 # Hi 👋, I'm Mohammad Malik
 ### 🚀 Data Science Aficionado | AI Enthusiast
 
-I’m a 21-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a deep passion for AI, machine learning, and analytics. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
+I’m a 22-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a deep passion for AI, machine learning, and analytics. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
 
 🔹 Interests: LLM Development | AI Engineering | Big Data Technologies | Predictive Analytics | Optimization<br>
 🔹 Always Learning: Open to collaborations and exciting projects!<br>
