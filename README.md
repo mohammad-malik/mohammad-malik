@@ -8,7 +8,7 @@ I’m a 22-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a
 
 - 🔭 I’m currently working on **AI Agents**
 
-- 🌱 I’m currently learning **LangGraph**
+- 🌱 I’m currently learning **Rust**
 
 - 💬 Ask me about **AI, LLMs, Automation, DevOps, MLOps, Data Analysis, Backend Development, Cloud**
 
