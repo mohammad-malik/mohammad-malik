@@ -1,14 +1,14 @@
 # Hi 👋, I'm Mohammad Malik
-### 🚀 Data Science Aficionado | AI Enthusiast | 3x Hackathon Winner
+### 🚀Software Engineer - II | Data Science Aficionado | AI Enthusiast | 3x Hackathon Winner
 
-I’m a 22-year-old data science enthusiast from Islamabad, Pakistan 🌆 with a deep passion for AI, machine learning, and analytics. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
+I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep passion for AI and coding in general. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
 
 🔹 Interests: Agentic AI | AI Research and Engineering | Automations | Big Data Technologies | Optimization<br>
 🔹 Always Learning: Open to collaborations and exciting projects!<br>
 
 - 🔭 I’m currently working on **AI Agents**
 
-- 🌱 I’m currently learning **Rust**
+- 🌱 I’m currently learning **Software Design**
 
 - 💬 Ask me about **AI, LLMs, Automation, DevOps, Data Analysis, Backend System Design, Cloud and Deployments**
 
