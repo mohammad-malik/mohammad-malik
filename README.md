@@ -18,27 +18,20 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 ## 🔗 Languages and Tools:
 
 <p align="center">
-  <img
-    src="https://go-skill-icons.vercel.app/api/icons?i=python,r,java,javascript,cpp,cs,kotlin,swift,bash,cuda,html,react,nextjs,nodejs,expressjs,flask,fastapi,d3,figma,aws,azure,gcp,digitalocean,vercel,supabase,firebase,docker,kubernetes,git,grafana,prometheus,hadoop,kafka,spark,flink,airflow,databricks,postgresql,mysql,oracle,mongodb,clickhouse,dbeaver,numpy,pandas,matplotlib,seaborn,pbi,tableau,scikitlearn,tensorflow,pytorch,opencv,langchain,crewai,n8n,chatgpt,gemini,mistral&theme=dark&perline=12"
-    alt="Languages and Tools"
-  />
-</p>
-
-<p align="center">
-  <img src="extra-icons.svg" alt="Contabo, OpenCL, Open MPI, Planview, OpenCode, Twilio, ElevenLabs, Fireworks AI, Claude"/>
+  <img src="tools.svg" alt="Languages and Tools"/>
 </p>
 
 <p align="center">
   <img
-    width="320"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammad-malik&theme=tokyonight&show_icons=true&hide_border=true&layout=donut"
+    width="360"
+    src="top-langs.svg"
     alt="mohammad-malik's Top Languages"
   />
 </p>
 
 ## 🏆 Trophies:
 
-[![Trophy](https://github-profile-trophy.vercel.app/?username=mohammad-malik&column=-1&theme=dark_lover)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="trophies.svg" alt="Trophies"/>
 
 
 ## 📊 Statistics:

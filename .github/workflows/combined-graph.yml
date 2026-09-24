@@ -21,7 +21,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           WORK_TOKEN: ${{ secrets.WORK_TOKEN }}
-        run: python scripts/combined_graph.py
+        run: |
+          python scripts/combined_graph.py
+          python scripts/profile_cards.py
       - name: Point README at the new image version (defeats image caching)
         run: |
           v=$(sha256sum combined-graph.svg | cut -c1-8)
@@ -30,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add combined-graph.svg README.md
+          git add combined-graph.svg top-langs.svg trophies.svg README.md
           git diff --staged --quiet || git commit -m "Update combined contribution graph"
           git push
