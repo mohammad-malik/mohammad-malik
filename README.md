@@ -38,7 +38,7 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 ## 📊 Statistics (personal + work):
 
 <p align="center">
-  <img src="stats.svg" alt="GitHub statistics: personal + work"/>
+  <img width="1200" src="stats.svg" alt="GitHub statistics: personal + work"/>
 </p>
 
 ## 📈 Contributions (personal + work):

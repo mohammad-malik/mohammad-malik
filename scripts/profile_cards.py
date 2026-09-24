@@ -213,26 +213,43 @@ def trophies_card(p, w):
     return "".join(out)
 
 
-STATS = ["Contributions (last year)", "Commits", "Pull Requests", "Issues", "Repositories", "Stars", "Followers"]
+STATS = [("Total Stars Earned", "Stars"), ("Total Commits", "Commits"), ("Total PRs", "Pull Requests"),
+         ("Total Issues", "Issues"), ("Contributions (last year)", "Contributions (last year)")]
+FONT_FILE = os.path.join(os.path.dirname(__file__), "assets", "press-start-2p.woff2")
 
 
 def stats_card(p, w):
-    width, row = 700, 26
-    height = 78 + len(STATS) * row
-    cols = [("Personal", 430), ("Work", 540), ("Total", 650)]
+    """Pixel-style card matching the old pixel-profile look, with a personal/work split."""
+    import base64
+    with open(FONT_FILE, "rb") as f:
+        font = base64.b64encode(f.read()).decode()
+    cyan, width, row = "#00FFFF", 1226, 40
+    height = 250 + len(STATS) * row
+    px = 'font-family="Pixel" fill="#00FFFF"'
+    cols = [("Personal", 790), ("Work", 960), ("Total", 1130)]
+    title = "Mohammad Malik's GitHub Stats"
+    tx0, tx1 = 84, 84 + len(title) * 24 + 12
+    bottom = height - 46
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-           f'<rect width="{width}" height="{height}" rx="6" fill="{BG}"/>',
-           f'<text x="20" y="30" {FONT} font-size="17" font-weight="600" fill="{TITLE}">GitHub Statistics · @{PERSONAL} + @{WORK}</text>']
+           f'<defs><style>@font-face{{font-family:Pixel;src:url(data:font/woff2;base64,{font})}}</style>'
+           '<linearGradient id="bg" x1="1" y1="1" x2="0" y2="0">'
+           '<stop offset="0" stop-color="#126134"/><stop offset="0.6" stop-color="#231e38" stop-opacity="0.42"/></linearGradient></defs>',
+           f'<rect width="{width}" height="{height}" fill="url(#bg)"/>',
+           f'<path d="M{tx0},46 H50 V{bottom} H1176 V46 H{tx1}" fill="none" stroke="{cyan}" stroke-width="3"/>',
+           f'<text x="{tx0 + 6}" y="58" {px} font-size="24">{escape(title)}</text>']
     for label, x in cols:
-        out.append(f'<text x="{x}" y="60" text-anchor="end" {FONT} font-size="12" font-weight="600" fill="{MUTED}">{label}</text>')
-    for i, name in enumerate(STATS):
-        y = 88 + i * row
-        if i % 2 == 0:
-            out.append(f'<rect x="12" y="{y - 17}" width="{width - 24}" height="{row}" rx="4" fill="#20223a"/>')
-        out.append(f'<text x="24" y="{y}" {FONT} font-size="13" fill="{TEXT}">{name}</text>')
-        for (label, x), v in zip(cols, (p[name], w[name], p[name] + w[name])):
-            weight = ' font-weight="700"' if label == "Total" else ""
-            out.append(f'<text x="{x}" y="{y}" text-anchor="end" {FONT} font-size="13"{weight} fill="{TEXT}">{v:,}</text>')
+        out.append(f'<text x="{x}" y="112" text-anchor="end" {px} font-size="16" fill-opacity="0.7">{label}</text>')
+    y = 112
+    for label, key in STATS:
+        y += row
+        out.append(f'<text x="94" y="{y}" {px} font-size="20">{escape(label)}:</text>')
+        for (_, x), v in zip(cols, (p[key], w[key], p[key] + w[key])):
+            out.append(f'<text x="{x}" y="{y}" text-anchor="end" {px} font-size="20">{v:,}</text>')
+    y += 34
+    out.append(f'<line x1="94" y1="{y}" x2="1130" y2="{y}" stroke="{cyan}" stroke-width="3" stroke-dasharray="14 6"/>')
+    y += 42
+    out.append(f'<text x="94" y="{y}" {px} font-size="20">Accounts:</text>')
+    out.append(f'<text x="1130" y="{y}" text-anchor="end" {px} font-size="16">@{PERSONAL} + @{WORK}</text>')
     out.append("</svg>")
     return "".join(out)
 
