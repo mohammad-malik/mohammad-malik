@@ -44,7 +44,7 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 ## 📈 Contributions (personal + work):
 
 <p align="center">
-  <img src="combined-graph.svg?v=165f8c0f" alt="Combined contribution graph: @mohammad-malik (personal) + @mohammadmalik-avirso (work)"/>
+  <img src="combined-graph.svg?v=28beda5d" alt="Combined contribution graph: @mohammad-malik (personal) + @mohammadmalik-avirso (work)"/>
 </p>
 
 ---
