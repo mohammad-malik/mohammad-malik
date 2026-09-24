@@ -23,7 +23,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 <animate attributeName="width" dur="{LOOP}s" repeatCount="indefinite" calcMode="discrete"
  keyTimes="{';'.join(f'{k:.4f}' for k in times)};1" values="{';'.join(widths)};0"/></rect></clipPath></defs>
 <text x="{x0:.1f}" y="30" fill="#00FFFF" clip-path="url(#type)">{QUOTE}</text>
-<text x="{W / 2}" y="62" text-anchor="middle" fill="#7fb8c4" font-style="italic" opacity="0">{BY}
+<text x="{x0 + full:.1f}" y="62" text-anchor="end" fill="#7fb8c4" font-style="italic" opacity="0">{BY}
 <animate attributeName="opacity" dur="{LOOP}s" repeatCount="indefinite"
  keyTimes="0;{t(BY_IN)};{t(BY_IN + 0.4)};{t(HOLD_END - 0.3)};{t(HOLD_END)};1" values="0;0;1;1;0;0"/></text>
 </svg>"""
