@@ -39,7 +39,7 @@ My main line of work is building backend systems and AI agents for enterprise cl
 
 ## 📈 Contributions
 <p align="center">
-  <img src="combined-graph.svg?v=f1ee9fc3" alt="Combined contribution graph: @mohammad-malik (personal) + @mohammadmalik-avirso (work)"/>
+  <img src="combined-graph.svg?v=16e1721b" alt="Combined contribution graph: @mohammad-malik (personal) + @mohammadmalik-avirso (work)"/>
 </p>
 
 ---
