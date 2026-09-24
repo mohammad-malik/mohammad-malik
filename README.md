@@ -1,5 +1,5 @@
 # Hi 👋, I'm Mohammad Malik
-### 🚀Software Engineer - II | Data Science Aficionado | AI Enthusiast | 3x Hackathon Winner
+### 🚀Software Engineer - II | Data Science Aficionado | AI Enthusiast | 3x Hackathon Winner | Honors Graduate @ FAST NUCES (Cum Laude + 7x Dean's List)
 
 I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep passion for AI and coding in general. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
 
