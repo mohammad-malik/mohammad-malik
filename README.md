@@ -19,7 +19,7 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 
 <p align="center">
   <img
-    src="https://go-skill-icons.vercel.app/api/icons?i=python,azure,gcp,aws,digitalocean,vercel,docker,supabase,firebase,hadoop,kafka,spark,flink,airflow,mongodb,postgresql,mysql,oracle,r,java,javascript,d3,expressjs,nextjs,nodejs,react,html,figma,flask,fastapi,git,grafana,prometheus,kubernetes,linux,bash,cpp,cuda,cs,kotlin,pbi,tableau,numpy,pandas,opencv,seaborn,matplotlib,scikitlearn,tensorflow,pytorch,langchain,crewai,chatgpt,gemini,claude,mistral,n8n,clickhouse,databricks,dbeaver,swift&theme=dark&perline=12"
+    src="https://go-skill-icons.vercel.app/api/icons?i=python,r,java,javascript,cpp,cs,kotlin,swift,bash,cuda,html,react,nextjs,nodejs,expressjs,flask,fastapi,d3,figma,aws,azure,gcp,digitalocean,vercel,supabase,firebase,docker,kubernetes,git,grafana,prometheus,hadoop,kafka,spark,flink,airflow,databricks,postgresql,mysql,oracle,mongodb,clickhouse,dbeaver,numpy,pandas,matplotlib,seaborn,pbi,tableau,scikitlearn,tensorflow,pytorch,opencv,langchain,crewai,n8n,chatgpt,claude,gemini,mistral&theme=dark&perline=12"
     alt="Languages and Tools"
   />
 </p>
