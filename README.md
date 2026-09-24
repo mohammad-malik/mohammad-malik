@@ -14,9 +14,9 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 🔹 Interests: Agentic AI | AI Research and Engineering | Automations | Big Data Technologies | Optimization<br>
 🔹 Always Learning: Open to collaborations and exciting projects!<br>
 
-- 🔭 I’m currently working on **AI Agents**
+- 🔭 I’m currently working on **enterprise applications**
 
-- 🌱 I’m currently learning **Software Design**
+- 🌱 I’m currently learning **Scalable Data Design**
 
 - 💬 Ask me about **AI, LLMs, Automation, DevOps, Data Analysis, Backend System Design, Cloud and Deployments**
 
