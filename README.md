@@ -9,17 +9,15 @@
   <img src="https://img.shields.io/badge/🎓_FAST-Cum_Laude-70a5fd?style=flat-square&labelColor=1a1b27"/>
   <img src="https://img.shields.io/badge/📜_Dean's_List-7×-9ece6a?style=flat-square&labelColor=1a1b27"/>
 </p>
-I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep passion for AI and coding in general. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
 
-🔹 Interests: Agentic AI | AI Research and Engineering | Automations | Big Data Technologies | Optimization<br>
-🔹 Always Learning: Open to collaborations and exciting projects!<br>
+I'm a 22 year old Software Engineer from Islamabad, Pakistan 🌆, with a deep passion for AI and coding in general.
+My main line of work is building backend systems and AI agents for enterprise clients. I thrive on solving complex problems by blending creativity with logic, and my curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges.
 
-- 🔭 I’m currently working on **enterprise applications**
-
-- 🌱 I’m currently learning **Scalable Data Design**
-
-- 💬 Ask me about **AI, LLMs, Automation, DevOps, Data Analysis, Backend System Design, Cloud and Deployments**
-
+- 🔭 Working on **enterprise applications**
+- 🌱 Learning **scalable data design**
+- 🧠 Into **agentic AI, AI research, automation, big data and optimization**
+- 💬 Ask me about **LLMs, backend system design, DevOps, cloud and data analysis**
+- 🤝 Open to **collaborations and interesting projects**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-malik-/) [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammadmalik.dev@gmail.com)
 
