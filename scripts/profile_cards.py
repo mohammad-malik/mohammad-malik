@@ -125,8 +125,8 @@ def work_stats():
     }
 
 
-def language_shares(repos, top=6):
-    sizes, colors = {}, {"Other": "#565f89"}
+def language_sizes(repos):
+    sizes, colors = {}, {}
     for r in repos:
         for e in r["languages"]["edges"]:
             name = e["node"]["name"]
@@ -134,22 +134,30 @@ def language_shares(repos, top=6):
                 continue
             sizes[name] = sizes.get(name, 0) + e["size"]
             colors[name] = e["node"]["color"] or "#888888"
-    ranked = sorted(sizes.items(), key=lambda kv: -kv[1])
+    return sizes, colors
+
+
+def combined_shares(p, w, top=7):
+    # Each account gets equal weight; raw bytes would let a few large work
+    # repos drown out everything personal
+    shares, colors = {}, {"Other": "#565f89"}
+    accounts = [language_sizes(a["repos"]) for a in (p, w)]
+    accounts = [a for a in accounts if a[0]]
+    for sizes, cols in accounts:
+        total = sum(sizes.values())
+        colors.update(cols)
+        for name, v in sizes.items():
+            shares[name] = shares.get(name, 0) + v / total / len(accounts)
+    ranked = sorted(shares.items(), key=lambda kv: -kv[1])
     langs = ranked[:top]
     rest = sum(v for _, v in ranked[top:])
     if rest:
         langs.append(("Other", rest))
-    total = sum(v for _, v in langs) or 1
-    return [(n, v / total, colors[n]) for n, v in langs]
+    return [(n, v, colors[n]) for n, v in langs]
 
 
-def donut(ox, label, shares):
-    cx, cy, r_out, r_in = ox + 80, 125, 62, 40
-    out = [f'<text x="{ox + 10}" y="58" {FONT} font-size="13" font-weight="600" fill="{MUTED}">{label}</text>']
-    if not shares:
-        out.append(f'<text x="{cx}" y="{cy + 4}" text-anchor="middle" {FONT} font-size="12" fill="{MUTED}">No data</text>')
-        return out
-    angle = -math.pi / 2
+def donut(cx, cy, r_out, r_in, shares):
+    out, angle = [], -math.pi / 2
     for name, share, color in shares:
         sweep = 2 * math.pi * share
         if sweep >= 2 * math.pi - 1e-6:
@@ -163,28 +171,12 @@ def donut(ox, label, shares):
             out.append(f'<path fill="{color}" d="M{x1:.2f},{y1:.2f} A{r_out},{r_out} 0 {large} 1 {x2:.2f},{y2:.2f} '
                        f'L{x3:.2f},{y3:.2f} A{r_in},{r_in} 0 {large} 0 {x4:.2f},{y4:.2f} Z"/>')
         angle += sweep
-    for i, (name, share, color) in enumerate(shares):
-        y = 80 + i * 17
-        out.append(f'<circle cx="{ox + 172}" cy="{y - 4}" r="5" fill="{color}"/>')
-        out.append(f'<text x="{ox + 184}" y="{y}" {FONT} font-size="12" fill="{TEXT}">'
-                   f'{escape(name)} <tspan fill="{MUTED}">{100 * share:.1f}%</tspan></text>')
     return out
-
-
-def languages_card(p, w):
-    width, height = 700, 215
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-           f'<rect width="{width}" height="{height}" rx="6" fill="{BG}"/>',
-           f'<text x="20" y="30" {FONT} font-size="17" font-weight="600" fill="{TITLE}">Most Used Languages</text>',
-           f'<line x1="350" y1="50" x2="350" y2="195" stroke="#2a2e45"/>']
-    out += donut(10, f"Personal · @{PERSONAL}", language_shares(p["repos"]))
-    out += donut(360, f"Work · @{WORK}", language_shares(w["repos"]))
-    out.append("</svg>")
-    return "".join(out)
 
 
 RANKS = [("SSS", 16), ("SS", 8), ("S", 4), ("A", 2), ("B", 1), ("C", 0.5)]
 TROPHIES = [("Commits", 100), ("Pull Requests", 10), ("Issues", 10), ("Repositories", 10), ("Stars", 10), ("Followers", 10)]
+CUP = "M-14,-18 h28 v10 a14,14 0 0 1 -28,0 z M-14,-14 h-7 a7,7 0 0 0 7,10 M14,-14 h7 a7,7 0 0 1 -7,10 M-3,6 h6 v7 h7 v5 h-20 v-5 h7 z"
 
 
 def rank(value, base):
@@ -194,21 +186,35 @@ def rank(value, base):
     return "?"
 
 
-def trophies_card(p, w):
-    tw, gap, h = 118, 10, 132
-    width = len(TROPHIES) * (tw + gap) - gap
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{h}" viewBox="0 0 {width} {h}">']
-    cup = "M-14,-18 h28 v10 a14,14 0 0 1 -28,0 z M-14,-14 h-7 a7,7 0 0 0 7,10 M14,-14 h7 a7,7 0 0 1 -7,10 M-3,6 h6 v7 h7 v5 h-20 v-5 h7 z"
+def overview_card(p, w):
+    """Languages donut on the left, 3x2 trophy grid on the right, one image."""
+    width, height, lw = 880, 290, 390
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+           f'<rect width="{lw}" height="{height}" rx="8" fill="{BG}"/>',
+           f'<text x="22" y="34" {FONT} font-size="17" font-weight="600" fill="{TITLE}">Most Used Languages</text>',
+           f'<text x="22" y="54" {FONT} font-size="11" fill="{MUTED}">Personal + work, each weighted equally</text>']
+    shares = combined_shares(p, w)
+    out += donut(110, 170, 78, 50, shares)
+    for i, (name, share, color) in enumerate(shares):
+        y = 106 + i * 19
+        out.append(f'<circle cx="222" cy="{y - 4}" r="5" fill="{color}"/>')
+        out.append(f'<text x="234" y="{y}" {FONT} font-size="12.5" fill="{TEXT}">'
+                   f'{escape(name)} <tspan fill="{MUTED}">{100 * share:.1f}%</tspan></text>')
+
+    tw, th, gap = 156, 139, 12
+    ox = lw + gap
     for i, (name, base) in enumerate(TROPHIES):
-        x, total = i * (tw + gap), p[name] + w[name]
+        x, y = ox + (i % 3) * (tw + gap), (i // 3) * (th + gap)
+        total = p[name] + w[name]
         letter = rank(total, base)
         color = GOLD if letter.startswith("S") else "#9ece6a" if letter == "A" else "#7aa2f7" if letter == "B" else MUTED
-        out.append(f'<g transform="translate({x},0)"><rect width="{tw}" height="{h}" rx="6" fill="{BG}"/>'
-                   f'<path transform="translate({tw / 2},38)" d="{cup}" fill="{color}" stroke="{color}" stroke-width="1.5" stroke-linejoin="round" fill-opacity="0.85"/>'
-                   f'<text x="{tw / 2}" y="16" text-anchor="middle" {FONT} font-size="11" font-weight="700" fill="{color}">{letter}</text>'
-                   f'<text x="{tw / 2}" y="82" text-anchor="middle" {FONT} font-size="13" font-weight="600" fill="{TEXT}">{name}</text>'
-                   f'<text x="{tw / 2}" y="101" text-anchor="middle" {FONT} font-size="13" font-weight="600" fill="{TEXT}">{total:,}</text>'
-                   f'<text x="{tw / 2}" y="119" text-anchor="middle" {FONT} font-size="9.5" fill="{MUTED}">{p[name]:,} personal · {w[name]:,} work</text></g>')
+        cx = x + tw / 2
+        out.append(f'<rect x="{x}" y="{y}" width="{tw}" height="{th}" rx="8" fill="{BG}"/>'
+                   f'<text x="{cx}" y="{y + 20}" text-anchor="middle" {FONT} font-size="11" font-weight="700" fill="{color}">{letter}</text>'
+                   f'<path transform="translate({cx},{y + 44})" d="{CUP}" fill="{color}" stroke="{color}" stroke-width="1.5" stroke-linejoin="round" fill-opacity="0.85"/>'
+                   f'<text x="{cx}" y="{y + 86}" text-anchor="middle" {FONT} font-size="13" font-weight="600" fill="{TEXT}">{name}</text>'
+                   f'<text x="{cx}" y="{y + 106}" text-anchor="middle" {FONT} font-size="14" font-weight="700" fill="{TEXT}">{total:,}</text>'
+                   f'<text x="{cx}" y="{y + 125}" text-anchor="middle" {FONT} font-size="10.5" fill="{MUTED}">{p[name]:,} personal · {w[name]:,} work</text>')
     out.append("</svg>")
     return "".join(out)
 
@@ -256,8 +262,7 @@ def stats_card(p, w):
 
 if __name__ == "__main__":
     p, w = personal_stats(), work_stats()
-    for fname, svg in (("top-langs.svg", languages_card(p, w)), ("trophies.svg", trophies_card(p, w)),
-                       ("stats.svg", stats_card(p, w))):
+    for fname, svg in (("overview.svg", overview_card(p, w)), ("stats.svg", stats_card(p, w))):
         with open(fname, "w", encoding="utf-8") as f:
             f.write(svg)
     print("personal:", {k: v for k, v in p.items() if k != "repos"})
