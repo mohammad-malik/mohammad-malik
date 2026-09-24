@@ -1,5 +1,14 @@
-# Hi 👋, I'm Mohammad Malik
-### 🚀Software Engineer - II | AI Enthusiast | 3x Hackathon Winner | Honors Graduate @ FAST (Cum Laude)
+<h1 align="center">Hi 👋, I'm Mohammad Malik</h1>
+
+<p align="center">
+  <b>Software Engineer II</b> · Backend & AI Consultant
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🏆_Hackathons-3×_Winner-e0af68?style=flat-square&labelColor=1a1b27"/>
+  <img src="https://img.shields.io/badge/🎓_FAST-Cum_Laude-70a5fd?style=flat-square&labelColor=1a1b27"/>
+  <img src="https://img.shields.io/badge/📜_Dean's_List-7×-9ece6a?style=flat-square&labelColor=1a1b27"/>
+</p>
 I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep passion for AI and coding in general. Armed with a strong foundation in data science, programming, and analytical thinking, I thrive on solving complex problems by blending creativity with logic. My curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges. Driven, methodical, and resilient, I’m always exploring innovative ways to extract insights from data and push the boundaries of AI. 👨🏼‍💻
 
 🔹 Interests: Agentic AI | AI Research and Engineering | Automations | Big Data Technologies | Optimization<br>
