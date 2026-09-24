@@ -8,12 +8,16 @@ import os
 import urllib.request
 from datetime import date
 
-PERSONAL = ("mohammad-malik", os.environ.get("PERSONAL_TOKEN") or os.environ["GITHUB_TOKEN"])
-WORK = ("mohammadmalik-avirso", os.environ.get("WORK_TOKEN") or os.environ["GITHUB_TOKEN"])
+for _name in ("PERSONAL_TOKEN", "WORK_TOKEN"):
+    if not os.environ.get(_name, "").strip():
+        print(f"WARNING: {_name} is empty; falling back to the Actions token, which undercounts")
+PERSONAL = ("mohammad-malik", os.environ.get("PERSONAL_TOKEN", "").strip() or os.environ["GITHUB_TOKEN"])
+WORK = ("mohammadmalik-avirso", os.environ.get("WORK_TOKEN", "").strip() or os.environ["GITHUB_TOKEN"])
 OUT = os.environ.get("OUT_FILE", "combined-graph.svg")
 
 QUERY = """
 query($login: String!) {
+  viewer { login }
   user(login: $login) {
     contributionsCollection {
       contributionCalendar {
@@ -39,6 +43,7 @@ def fetch(login, token):
         body = json.load(r)
     if "errors" in body:
         raise SystemExit(f"{login}: {body['errors']}")
+    print(f"{login}: token belongs to {body['data']['viewer']['login']}")
     weeks = body["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
     return {d["date"]: d["contributionCount"] for w in weeks for d in w["contributionDays"]}
 
