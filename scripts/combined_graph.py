@@ -63,6 +63,10 @@ def level(count, th):
 
 def main():
     p, w = fetch(*PERSONAL), fetch(*WORK)
+    # The work token can see private days but may be blind to SSO-protected org
+    # activity; the public view catches that. Take the larger count per day.
+    public_w = fetch(WORK[0], PERSONAL[1])
+    w = {d: max(w.get(d, 0), public_w.get(d, 0)) for d in set(w) | set(public_w)}
     days = sorted(set(p) | set(w))
     tp, tw = thresholds(p), thresholds(w)
 
