@@ -30,6 +30,7 @@ query($login: String!) {
 
 # (light, dark) palettes, levels 1-4
 GREEN = [("#9be9a8", "#0e4429"), ("#40c463", "#006d32"), ("#30a14e", "#26a641"), ("#216e39", "#39d353")]
+TEAL = [("#a7f0e4", "#0b3d3a"), ("#4fd1c5", "#0f6e66"), ("#1fa89a", "#1fb5a5"), ("#0d7a70", "#5eead4")]
 BLUE = [("#b6d7ff", "#0c2d6b"), ("#6cb2ff", "#1158c7"), ("#2f81f7", "#388bfd"), ("#0a4fb3", "#79c0ff")]
 
 
@@ -82,9 +83,9 @@ def main():
            ".s{font:11px -apple-system,Segoe UI,sans-serif;fill:#59636e}",
            ".e{fill:#ebedf0}"]
     dark = [".t{fill:#e6edf3}", ".s{fill:#9198a1}", ".e{fill:#161b22}"]
-    for i, (g, b) in enumerate(zip(GREEN, BLUE), 1):
-        css += [f".p{i}{{fill:{g[0]}}}", f".w{i}{{fill:{b[0]}}}"]
-        dark += [f".p{i}{{fill:{g[1]}}}", f".w{i}{{fill:{b[1]}}}"]
+    for i, (g, b, t) in enumerate(zip(GREEN, BLUE, TEAL), 1):
+        css += [f".p{i}{{fill:{g[0]}}}", f".w{i}{{fill:{b[0]}}}", f".b{i}{{fill:{t[0]}}}"]
+        dark += [f".p{i}{{fill:{g[1]}}}", f".w{i}{{fill:{b[1]}}}", f".b{i}{{fill:{t[1]}}}"]
 
     sp, sw = sum(p.values()), sum(w.values())
     out = [
@@ -107,19 +108,19 @@ def main():
                 last_month = dt.month
         lp, lw = level(p.get(d, 0), tp), level(w.get(d, 0), tw)
         tip = f"<title>{d}: {p.get(d, 0)} personal, {w.get(d, 0)} work</title>"
-        if lp and lw:  # split square: personal top-left, work bottom-right
-            out.append(f'<g>{tip}<polygon class="p{lp}" points="{x},{y} {x + cell},{y} {x},{y + cell}"/>'
-                       f'<polygon class="w{lw}" points="{x + cell},{y} {x + cell},{y + cell} {x},{y + cell}"/></g>')
+        if lp and lw:  # both accounts active: teal, shaded by the busier side
+            cls = f"b{max(lp, lw)}"
         else:
             cls = f"p{lp}" if lp else f"w{lw}" if lw else "e"
-            out.append(f'<rect class="{cls}" x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2">{tip}</rect>')
+        out.append(f'<rect class="{cls}" x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2">{tip}</rect>')
 
     ly = top + 7 * step + 22
     out.append(f'<rect class="p3" x="{left}" y="{ly - 9}" width="{cell}" height="{cell}" rx="2"/>')
     out.append(f'<text class="s" x="{left + 16}" y="{ly}">Personal</text>')
     out.append(f'<rect class="w3" x="{left + 80}" y="{ly - 9}" width="{cell}" height="{cell}" rx="2"/>')
     out.append(f'<text class="s" x="{left + 96}" y="{ly}">Work</text>')
-    out.append(f'<text class="s" x="{left + 140}" y="{ly}">Split square = both on the same day · updated {date.today()}</text>')
+    out.append(f'<rect class="b3" x="{left + 130}" y="{ly - 9}" width="{cell}" height="{cell}" rx="2"/>')
+    out.append(f'<text class="s" x="{left + 146}" y="{ly}">Both same day · updated {date.today()}</text>')
     out.append("</svg>")
 
     with open(OUT, "w", encoding="utf-8") as f:
