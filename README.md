@@ -23,22 +23,23 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 
 <p align="center">
   <img
-    width="360"
     src="top-langs.svg"
     alt="mohammad-malik's Top Languages"
   />
 </p>
 
-## 🏆 Trophies:
+## 🏆 Trophies (personal + work):
 
-<img src="trophies.svg" alt="Trophies"/>
+<p align="center">
+  <img src="trophies.svg" alt="Trophies: personal + work"/>
+</p>
 
 
-## 📊 Statistics:
+## 📊 Statistics (personal + work):
 
-<br>
-<img width=1200 src="https://pixel-profile.vercel.app/api/github-stats?username=mohammad-malik&include_all_commits=true&pixelate_avatar=false&hide=avatar&background=linear-gradient%28320deg%2C+%23126134ff+0%25%2C+%23231e386c+60%25%29&color=%2300FFFFFF" alt="mohammad-malik's Stats">
-</div>
+<p align="center">
+  <img src="stats.svg" alt="GitHub statistics: personal + work"/>
+</p>
 
 ## 📈 Contributions (personal + work):
 
