@@ -45,6 +45,6 @@ My main line of work is building backend systems and AI agents for enterprise cl
 ---
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?lines=An+idiot+admires+complexity,+a+genius+admires+simplicity.&font=Fira+Code&size=20&color=00FFFF&center=true&vCenter=true&width=700&height=50" alt="An idiot admires complexity, a genius admires simplicity."/></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?lines=An+idiot+admires+complexity,+a+genius+admires+simplicity.+%E2%80%94+Terry+A.+Davis&font=Fira+Code&size=18&color=00FFFF&center=true&vCenter=true&width=820&height=50&pause=6000"An idiot admires complexity, a genius admires simplicity. — Terry A. Davis"/></a>
 </p>
 ---
