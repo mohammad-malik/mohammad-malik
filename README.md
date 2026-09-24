@@ -19,7 +19,7 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 
 <p align="center">
   <img
-    src="https://go-skill-icons.vercel.app/api/icons?i=python,azure,gcp,aws,digitalocean,vercel,docker,supabase,firebase,hadoop,kafka,spark,flink,airflow,mongodb,postgresql,mysql,oracle,r,java,javascript,d3,expressjs,nextjs,nodejs,react,html,figma,flask,fastapi,git,grafana,prometheus,kubernetes,linux,bash,cpp,cuda,cs,kotlin,pbi,tableau,numpy,pandas,opencv,seaborn,matplotlib,scikitlearn,tensorflow,pytorch,langchain,crewai,chatgpt,gemini,claude,mistral,n8n&theme=dark&perline=12"
+    src="https://go-skill-icons.vercel.app/api/icons?i=python,azure,gcp,aws,digitalocean,vercel,docker,supabase,firebase,hadoop,kafka,spark,flink,airflow,mongodb,postgresql,mysql,oracle,r,java,javascript,d3,expressjs,nextjs,nodejs,react,html,figma,flask,fastapi,git,grafana,prometheus,kubernetes,linux,bash,cpp,cuda,cs,kotlin,pbi,tableau,numpy,pandas,opencv,seaborn,matplotlib,scikitlearn,tensorflow,pytorch,langchain,crewai,chatgpt,gemini,claude,mistral,n8n,clickhouse,databricks,dbeaver,swift&theme=dark&perline=12"
     alt="Languages and Tools"
   />
 </p>
@@ -30,6 +30,9 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
   <img src="https://img.shields.io/badge/Open%20MPI-1F4E79?style=for-the-badge&logoColor=white" alt="Open MPI"/>
   <img src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white" alt="Twilio"/>
   <img src="https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logoColor=white" alt="ElevenLabs"/>
+  <img src="https://img.shields.io/badge/Planview-0072CE?style=for-the-badge&logoColor=white" alt="Planview"/>
+  <img src="https://img.shields.io/badge/OpenCode-000000?style=for-the-badge&logoColor=white" alt="OpenCode"/>
+  <img src="https://img.shields.io/badge/Fireworks%20AI-6720FF?style=for-the-badge&logoColor=white" alt="Fireworks AI"/>
 </p>
 
 <p align="center">
