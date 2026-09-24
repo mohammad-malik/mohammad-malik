@@ -145,7 +145,7 @@ def language_shares(repos, top=6):
 
 def donut(ox, label, shares):
     cx, cy, r_out, r_in = ox + 80, 125, 62, 40
-    out = [f'<text x="{cx}" y="58" text-anchor="middle" {FONT} font-size="13" font-weight="600" fill="{MUTED}">{label}</text>']
+    out = [f'<text x="{ox + 10}" y="58" {FONT} font-size="13" font-weight="600" fill="{MUTED}">{label}</text>']
     if not shares:
         out.append(f'<text x="{cx}" y="{cy + 4}" text-anchor="middle" {FONT} font-size="12" fill="{MUTED}">No data</text>')
         return out
@@ -195,7 +195,7 @@ def rank(value, base):
 
 
 def trophies_card(p, w):
-    tw, gap, h = 110, 10, 132
+    tw, gap, h = 118, 10, 132
     width = len(TROPHIES) * (tw + gap) - gap
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{h}" viewBox="0 0 {width} {h}">']
     cup = "M-14,-18 h28 v10 a14,14 0 0 1 -28,0 z M-14,-14 h-7 a7,7 0 0 0 7,10 M14,-14 h7 a7,7 0 0 1 -7,10 M-3,6 h6 v7 h7 v5 h-20 v-5 h7 z"
@@ -208,7 +208,7 @@ def trophies_card(p, w):
                    f'<text x="{tw / 2}" y="16" text-anchor="middle" {FONT} font-size="11" font-weight="700" fill="{color}">{letter}</text>'
                    f'<text x="{tw / 2}" y="82" text-anchor="middle" {FONT} font-size="13" font-weight="600" fill="{TEXT}">{name}</text>'
                    f'<text x="{tw / 2}" y="101" text-anchor="middle" {FONT} font-size="13" font-weight="600" fill="{TEXT}">{total:,}</text>'
-                   f'<text x="{tw / 2}" y="119" text-anchor="middle" {FONT} font-size="10" fill="{MUTED}">{p[name]:,} personal · {w[name]:,} work</text></g>')
+                   f'<text x="{tw / 2}" y="119" text-anchor="middle" {FONT} font-size="9.5" fill="{MUTED}">{p[name]:,} personal · {w[name]:,} work</text></g>')
     out.append("</svg>")
     return "".join(out)
 
