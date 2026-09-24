@@ -11,7 +11,7 @@
 </p>
 
 I'm a 22 year old Software Engineer from Islamabad, Pakistan 🌆, with a deep passion for AI and coding in general.
-My main line of work is building backend systems and AI agents for enterprise clients. I thrive on solving complex problems by blending creativity with logic, and my curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges.
+My main line of work is building data engineering and backend systems, as well as AI agents for enterprise clients. I thrive on solving complex problems by blending creativity with logic, and my curiosity drives me to dive deep into new technologies, constantly learning and adapting to challenges.
 
 - 🔭 Working on **enterprise applications**
 - 🌱 Learning **scalable data design**
