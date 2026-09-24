@@ -51,6 +51,12 @@ I’m a 22-year-old software engineer from Islamabad, Pakistan 🌆 with a deep 
 <img width=1200 src="https://pixel-profile.vercel.app/api/github-stats?username=mohammad-malik&include_all_commits=true&pixelate_avatar=false&hide=avatar&background=linear-gradient%28320deg%2C+%23126134ff+0%25%2C+%23231e386c+60%25%29&color=%2300FFFFFF" alt="mohammad-malik's Stats">
 </div>
 
+## 📈 Contributions (personal + work):
+
+<p align="center">
+  <img src="combined-graph.svg" alt="Combined contribution graph: @mohammad-malik (personal) + @mohammadmalik-avirso (work)"/>
+</p>
+
 ---
 
 ### [![Quote](https://readme-typing-svg.demolab.com/?lines="An+idiot+admires+complexity,;A+genius+admires+simplicity"&height=60&color=2300F&multiline=true)](https://git.io/typing-svg)
