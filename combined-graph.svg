@@ -383,10 +383,11 @@
 <rect class="w2" x="746" y="128" width="11" height="11" rx="2"><title>2026-09-25: 0 personal, 14 work</title></rect>
 <rect class="b4" x="746" y="142" width="11" height="11" rx="2"><title>2026-09-26: 9 personal, 12 work</title></rect>
 <rect class="p4" x="760" y="58" width="11" height="11" rx="2"><title>2026-09-27: 27 personal, 0 work</title></rect>
+<rect class="e" x="760" y="72" width="11" height="11" rx="2"><title>2026-09-28: 0 personal, 0 work</title></rect>
 <rect class="p3" x="32" y="169" width="11" height="11" rx="2"/>
 <text class="s" x="48" y="178">Personal</text>
 <rect class="w3" x="112" y="169" width="11" height="11" rx="2"/>
 <text class="s" x="128" y="178">Work</text>
 <rect class="b3" x="162" y="169" width="11" height="11" rx="2"/>
-<text class="s" x="178" y="178">Both same day · updated 2026-09-27</text>
+<text class="s" x="178" y="178">Both same day · updated 2026-09-28</text>
 </svg>

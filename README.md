@@ -39,7 +39,7 @@ My main line of work is building data engineering and backend systems, as well a
 
 ## 📈 Contributions
 <p align="center">
-  <img src="combined-graph.svg?v=e4f2c2ad" alt="Combined contribution graph: @mohammad-malik (personal) + @mohammadmalik-avirso (work)"/>
+  <img src="combined-graph.svg?v=f27f07fd" alt="Combined contribution graph: @mohammad-malik (personal) + @mohammadmalik-avirso (work)"/>
 </p>
 
 ---
